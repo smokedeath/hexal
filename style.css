@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('./assets/fonts/lato_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('./assets/fonts/lato_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('./assets/fonts/lato_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./assets/fonts/lato_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('./assets/fonts/lato_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./assets/fonts/lato_bold.svg#lato_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('./assets/fonts/myriadpro-regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('./assets/fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('./assets/fonts/myriadpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./assets/fonts/myriadpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('./assets/fonts/myriadpro-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./assets/fonts/myriadpro-regular.svg#myriadpro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template: 63px 10px 341px 564px 43px / 1fr;
+    justify-items: center;
+}
+header {
+    text-align: center;
+    background-color: #323232;
+    height: 63px;
+    width: 1020px;
+    color: #ffffff;
+}
+nav {
+    display: grid;
+    grid-template: 1fr / 460px 100px 460px;
+}
+.left, .right {
+    align-self: center;
+    margin-top: 25.5px;
+}
+.left {
+    justify-self: end;
+    margin-right: 20px;
+}
+.right{
+    justify-self: start;
+    margin-left: 20px;
+}
+.right .last {
+    margin-left: -1px;
+}
+.first {
+    margin-right: 8.5px;
+}
+.first:after {
+    content: '\00B7';
+    margin-left: 11px;
+    color: rgba(255, 255, 255, 255);
+    cursor: default;
+}
+.span__img {
+    position: relative;
+}
+nav span img {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Lato Bold', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    font-size: 7.21379pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: justify;
+    cursor: pointer;
+}
+nav a:hover {
+    color: rgba(46, 179, 152, 255);
+}
+
+footer {
+    height: 43px;
+    width: 1020px;
+    background-color: #222222;
+}
