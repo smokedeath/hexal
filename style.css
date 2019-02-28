@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template: 63px 721px 341px 564px 43px / 1fr;
+    grid-template: 63px 1062px 607px / 1fr;
     justify-items: center;
 }
 header {
@@ -108,6 +108,11 @@ nav a {
 nav a:hover {
     color: rgba(46, 179, 152, 255);
 }
+
+main {
+    display: grid;
+    grid-template: 721px 341px / 1fr;
+}
 #portfolio {
     height: 721px;
     width: 1020px;
@@ -116,22 +121,44 @@ nav a:hover {
     background: #2eb398;
     height: 341px;
     width: 1020px;
-    /*display: contents;*/
+    justify-items: center;
+    z-index: 1;
 }
 .about__content{
-    width:820px;
+    width: 820px;
+    min-height: 316px;
     border-left: 1px solid red;
     border-right: 1px solid red;
-    margin: 13px 0 12px 0px;
+    margin: 13px auto;
+    display: grid;
+    grid-template: 1fr / 1fr 3fr;
+    z-index: 2;
 }
+.about__content__photo{
+    text-align: center;
+}
+.photo_box{
+    width: 180px;
+    height: 205px;
+    overflow: hidden;
+    margin: 55px 20px;
+}
+.photo_box img {
+    margin: -1px -120px;
+}
+
 #getInTouch {
     background: #323232;
     height: 564px;
     width: 1020px;
 }
 
-footer {
+#copyright {
     height: 43px;
     width: 1020px;
     background-color: #222222;
+}
+footer {
+    height: 607px;
+    width: 1020px;
 }
