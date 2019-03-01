@@ -59,10 +59,10 @@ nav {
     color: rgba(255, 255, 255, 255);
     cursor: default;
 }
-.span__img {
+.span-img {
     position: relative;
 }
-.span__img h1 {
+.span-img h1 {
     opacity: 0;
     width: 0px;
     height: 0px;
@@ -76,14 +76,14 @@ nav {
     border-width: 29px 50px 0 50px;
     border-color: #323232 transparent transparent transparent;
 }
-.before__triangle {
+.before-triangle {
     border-bottom: 1px solid #e4e9eb;
     width: 410px;
     position: absolute;
     bottom: -31px;
     left: -430px;
 }
-.after__triangle {
+.after-triangle {
     border-bottom: 1px solid #e4e9eb;
     width: 410px;
     position: absolute;
@@ -124,9 +124,9 @@ main {
     justify-items: center;
     z-index: 1;
 }
-.about__content{
+.about-content{
     width: 820px;
-    min-height: 316px;
+    height: 316px;
     border-left: 1px solid red;
     border-right: 1px solid red;
     margin: 13px auto;
@@ -134,25 +134,16 @@ main {
     grid-template: 1fr / 1fr 3fr;
     z-index: 2;
 }
-.about__content__photo{
-    text-align: center;
+.about-content-photo{
+    align-self: center;
+    justify-self: center;
+    margin-left: 15px;
 }
-.photo_box{
-    width: 180px;
-    height: 205px;
-    overflow: hidden;
-    margin: 55px 20px;
-}
-.photo_box img {
-    margin: -1px -120px;
-}
-
 #getInTouch {
     background: #323232;
     height: 564px;
     width: 1020px;
 }
-
 #copyright {
     height: 43px;
     width: 1020px;
