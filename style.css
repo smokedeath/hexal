@@ -101,6 +101,14 @@ main {
     height: 721px;
     width: 1020px;
 }
+.hexagon-grid {
+    padding: 63px 110px;
+}
+.hexagon-grid li {
+    list-style-type: none;
+    margin: 10px;
+    float: left;
+}
 #about {
     background: #2eb398;
     height: 341px;
