@@ -152,10 +152,14 @@ main {
     font-size: 0px;
     margin: 33px 7px;
 }
-.social a {
+.social a img {
     cursor: pointer;
-    /*padding: 0;*/
+    filter: hue-rotate(123deg) brightness(1.4) opacity(60%) grayscale(100%)
 }
+.social a img:hover {
+    filter: none;
+}
+
 #getInTouch {
     background: #323232;
     height: 564px;
