@@ -101,14 +101,23 @@ main {
     height: 721px;
     width: 1020px;
 }
-.hexagon-grid {
-    padding: 74px 109px;
+.hexagon-grid1 {
+    padding: 73px 110px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.hexagon-grid li {
+.hexagon-li li {
     list-style-type: none;
+    position: relative;
+}
+.hexagon-li li:first-child:before {
+    content: "";
+    border-left: 1px solid #e4e9eb;
+    position: absolute;
+    height: 104px;
+    left: -21px;
+    top: 52px;
 }
 .about {
     background: #2eb398;
