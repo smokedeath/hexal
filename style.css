@@ -103,6 +103,7 @@ main {
 }
 .hexagon-grid1 {
     padding: 73px 110px;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -111,13 +112,50 @@ main {
     list-style-type: none;
     position: relative;
 }
-.hexagon-li li:first-child:before {
+.hexagon-grid1>li:first-child:before {
     content: "";
     border-left: 1px solid #e4e9eb;
     position: absolute;
     height: 104px;
     left: -21px;
     top: 52px;
+}
+.hexagon-grid1>li:last-child:before {
+    content: "";
+    border-left: 1px solid #e4e9eb;
+    position: absolute;
+    height: 104px;
+    left: 200px;
+    top: 52px;
+}
+.hexagon-grid2 {
+    padding: 0px 10px;
+    margin-top: -21px;
+    height: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.slider-button-panel {
+    display: flex;
+    width: 53px;
+    margin: 94px 0px 0px 29px;
+    justify-content: space-around;
+}
+.slider-button {
+    height: 6px;
+    width: 6px;
+    background-color: #ddd2c5;
+    cursor: pointer;
+}
+.slider-button:hover {
+    background-color: #8b8784;
+}
+.section-border-button {
+    text-align: center;
+    width: 960px;
+    border-bottom: 1px solid #e4e9eb;
+    margin: 11px 30px;
 }
 .about {
     background: #2eb398;
