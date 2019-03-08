@@ -225,18 +225,86 @@ main {
 .social a img:hover {
     filter: none;
 }
+footer {
+    height: 607px;
+    width: 1020px;
+}
 
 .getInTouch {
     background: #323232;
     height: 564px;
     width: 1020px;
+    display: grid;
+    grid-template: 1fr / 70% 30%;
+}
+.getInTouch-caption {
+    font-family: '﻿MavenProRegular', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+}
+.getInTouch-caption .caption1 {
+    font-size: 28px;
+    color: #e0e0e0;
+    margin: 62px 0 0 119px;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+}
+.getInTouch-caption .caption2 {
+    font-size: 18px;
+    color: #a1a1a1;
+    margin: -0.5px 0 0 121px;
+    word-spacing: -1.19px;
+    letter-spacing: 0.6px;
+}
+.getInTouch-info {
+    //
+}
+.getInTouch-info-text {
+    font-family: '﻿Lato-Black', 'Lato-Regular', 'AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-size: 12px;
+    color: #919191;
+    margin: 128px 0px 0 6px;
+    word-spacing: 3.2px;
+    letter-spacing: 0.3px;
+    padding-right: 100px;
+    line-height: 21.5px;
+}
+.getInTouch-info-text span {
+    color: #d7d7d7;
+}
+.getInTouch-info-contacts {
+    font-family: 'Lato-Bold', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: 39px;
+}
+.getInTouch-info-contacts ul{
+    padding-left: 0px;
+}
+.getInTouch-info-contacts li {
+    list-style-type: none;
+    display: flex;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.getInTouch-info-contacts li .span-img {
+    width: 23px;
+    text-align: center;
+}
+.getInTouch-info-contacts li .span-text {
+    margin-left: 6px;
 }
 .copyright {
     height: 43px;
     width: 1020px;
     background-color: #222222;
+    font-family: 'MavenProRegular', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    color: rgba(69, 69, 69, 255);
+    font-size: small;
+    position: relative;
 }
-footer {
-    height: 607px;
-    width: 1020px;
+
+.copyright div{
+    position: absolute;
+    letter-spacing: -0.68px;
+    top: 14px;
+    left: 39px;
 }
