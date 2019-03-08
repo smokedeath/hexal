@@ -157,9 +157,18 @@
     </main>
     <footer>
         <section id="getInTouch" class="getInTouch">
-            <div class="getInTouch-caption">
+            <div class="getInTouch-form">
                 <div class="caption1">Get In Touch</div>
                 <div class="caption2">In order to get in touch use the contact form below:</div>
+                <form action="#" class="from-touch" id="from-touch">
+                    <input type="text" placeholder="Name (Required)" required id="in_touch_name" form="from-touch">
+                    <input type="email" placeholder="Email (Required)" required id="in_touch_email" form="from-touch">
+                    <input type="text" placeholder="Subject" id="in_touch_subject">
+                    <textarea name="message" id="message" form="from-touch">Write your message here...</textarea>
+                    <div class="div-btn">
+                        <input type="submit" class="btn" value="SEND" form="from-touch">
+                    </div>
+                </form>
             </div>
             <div class="getInTouch-info">
                 <div class="getInTouch-info-text">
