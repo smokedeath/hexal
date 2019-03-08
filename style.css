@@ -83,7 +83,7 @@ nav span img {
 }
 nav a {
     text-decoration: none;
-    font-family: 'Lato Bold', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    font-family: Lato-Bold, AdobeInvisFont, MyriadPro-Regular, sans-serif, Arial;
     font-size: 7.21379pt;
     color: rgba(255, 255, 255, 255);
     text-align: justify;
@@ -181,7 +181,7 @@ main {
 }
 .about-content-info {
     padding: 50px 13px 0px 13px;
-    font-family: 'MavenProRegular', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    font-family: MavenProRegular, AdobeInvisFont, MyriadPro-Regular, sans-serif, Arial;
     text-align: justify;
     position: relative;
 }
@@ -200,7 +200,7 @@ main {
 .info-lorem {
     line-height: 180%;
     padding: 3px 1.5px;
-    font-family: 'Lato-Regular', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    font-family: Lato-Regular, AdobeInvisFont, MyriadPro-Regular, sans-serif, Arial;
     font-size: 12px;
     color: rgba(215, 252, 245, 255);
 }
@@ -238,7 +238,7 @@ footer {
     grid-template: 1fr / 70% 30%;
 }
 .getInTouch-form {
-    font-family: '﻿MavenProRegular', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-family: ﻿MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
 }
 .getInTouch-form .caption1 {
     font-size: 28px;
@@ -255,7 +255,7 @@ footer {
     letter-spacing: 0.6px;
 }
 .from-touch {
-    font-family: '﻿Lato-Regular', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-family: ﻿Lato-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
     font-size: 12pt;
     text-align: justify;
     margin-left: 120px;
@@ -289,7 +289,7 @@ footer {
     margin: 12px 14px 0 0;
 }
 .from-touch .btn {
-    font-family: '﻿Lato-Bold', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
     font-size: 11px;
     background: #2eb398;
     color: #b4eadf;
@@ -299,7 +299,7 @@ footer {
     width: 90px;
 }
 .getInTouch-info-text {
-    font-family: '﻿Lato-Black', 'Lato-Regular', 'AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-family: ﻿Lato-Black, Lato-Regular, AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
     font-size: 12px;
     color: #919191;
     margin: 128px 0px 0 6px;
@@ -312,7 +312,7 @@ footer {
     color: #d7d7d7;
 }
 .getInTouch-info-contacts {
-    font-family: 'Lato-Bold', '﻿AdobeInvisFont', '﻿MyriadPro-Regular', sans-serif, Arial;
+    font-family: Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
     font-size: 12px;
     color: #a8a8a8;
     margin-top: 39px;
@@ -337,7 +337,7 @@ footer {
     height: 43px;
     width: 1020px;
     background-color: #222222;
-    font-family: 'MavenProRegular', 'AdobeInvisFont', 'MyriadPro-Regular', sans-serif, Arial;
+    font-family: MavenProRegular, AdobeInvisFont, MyriadPro-Regular, sans-serif, Arial;
     color: rgba(69, 69, 69, 255);
     font-size: small;
     position: relative;
