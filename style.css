@@ -334,7 +334,7 @@ footer {
     font-family: Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif, Arial;
     font-size: 12px;
     color: #a8a8a8;
-    margin-top: 39px;
+    margin-top: 41px;
 }
 .getInTouch-info-contacts ul{
     padding-left: 0px;
@@ -348,6 +348,9 @@ footer {
 .getInTouch-info-contacts li .span-img {
     width: 23px;
     text-align: center;
+}
+.getInTouch-info-contacts li .span-img a img:hover {
+    width: 15px;
 }
 .getInTouch-info-contacts li .span-text {
     margin-left: 6px;
